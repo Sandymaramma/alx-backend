@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
-""" 
-Implementing a get_hyper method that takes the same arguments (and defaults) and returning dictionary
-"""
+""" implementing get_hyper method that takes same arguments """
 
 import csv
 from math import ceil
