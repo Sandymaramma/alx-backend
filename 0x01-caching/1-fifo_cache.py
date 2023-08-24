@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-""" Creating class that inherits from BaseCaching and is a caching system """
+""" Creating class FIFOCache that inherits from BaseCaching """
+BaseCaching = __import__('base_caching').BaseCaching
+
 
 class FIFOCache(BaseCaching):
     """ Define FIFOCache """
