@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 """ Creating class MRUCache that inherits from BaseCaching """
+BaseCaching = __import__('base_caching').BaseCaching
+
 
 class MRUCache(BaseCaching):
     """ Define MRUCache """
